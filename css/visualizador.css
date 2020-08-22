@@ -1,0 +1,32 @@
+.visualizador-pagina {
+    margin-top:     15px;
+    margin-bottom:  15px;
+    cursor:         pointer;
+    height: 200px;
+}
+
+.visualizador-pagina-imagen {
+    height: 200px;
+}
+
+
+#visualizador-left {
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 3px;
+     width: 560px;
+     margin-right: 10px;
+     height: 710px;
+     float: left;
+ }
+
+#visualizador-right {
+    width: 160px;
+    height: 710px;
+    float: right;
+    overflow-y: scroll;
+}
+
+#visualizador-pie-de-pagina {
+    text-align: center;
+}

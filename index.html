@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/visualizador.css">
+
+    </head>
+    <body>
+    <div class="wrapper">
+        <div class="container">
+            <div id="visualizador"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/visualizador.js"></script>
+    <script>
+        const images = [ "https://josevillasmil.site/images/visualizador/5f4080fc9ca0d.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4080fd5633f.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4080fdcfb57.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4080fe7c3f2.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4080ff0d67e.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4080ffac8ca.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f40810037c56.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f408100d3220.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4081017ac9f.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4081021bfa5.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f408102b81a8.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4081034514c.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f408103c3406.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f4081046d277.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f408104eac00.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f40810575b63.jpg",
+                         "https://josevillasmil.site/images/visualizador/5f40810632fd8.jpg",
+                        "https://josevillasmil.site/images/visualizador/5f408106ad258.jpg"];
+        const v = visualizadorInit('visualizador', images);
+        v.scrollEvent();
+    </script>
+    </body>
+</html>
